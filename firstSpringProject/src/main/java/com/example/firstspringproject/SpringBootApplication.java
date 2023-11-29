@@ -11,6 +11,7 @@ import java.util.Random;
 public class SpringBootApplication {
     private int count;
     List<Integer> countList = new ArrayList<>();
+
     @GetMapping(value = "/message")
     private String message() {
         String[] messages = {"мы вам не рады", "добро пожаловать"};
