@@ -10,7 +10,7 @@ import java.util.Random;
 @RestController
 public class SpringBootApplication {
     private int count;
-    List<Integer> countList = new ArrayList<>();
+    private List<Integer> countList = new ArrayList<>();
 
     @GetMapping(value = "/message")
     private String message() {
@@ -27,7 +27,7 @@ public class SpringBootApplication {
     }
 
     @GetMapping(value = "/info")
-    public int info() {
+    public int getCount() {
         return count;
     }
 
