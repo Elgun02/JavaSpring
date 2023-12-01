@@ -14,5 +14,7 @@ public class Main {
 		for (int i = 0; i < 4; i++) {
 			context.getBean(Person.class);
 		}
+
+		System.out.println(context.getBean(Bean.class).getName());
 	}
 }
