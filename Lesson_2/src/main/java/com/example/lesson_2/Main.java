@@ -6,7 +6,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ImportResource;
 
 @SpringBootApplication
-@ImportResource("classpath:person.xml")  // xml файл находися в папке "resources"
+@ImportResource("classpath:bean.xml")  // xml файл находися в папке "resources"
 public class Main {
 	public static void main(String[] args) {
 		ApplicationContext context = SpringApplication.run(Main.class, args);
