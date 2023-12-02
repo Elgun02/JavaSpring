@@ -15,6 +15,6 @@ public class Main {
 			context.getBean(Person.class);
 		}
 
-		System.out.println(context.getBean(Bean.class).getName());
+		System.out.println("Name: " + context.getBean(Bean.class).getName());
 	}
 }
